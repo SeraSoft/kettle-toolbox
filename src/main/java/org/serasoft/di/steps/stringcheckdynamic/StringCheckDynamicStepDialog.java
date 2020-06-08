@@ -35,7 +35,7 @@ import java.util.List;
 
 public class StringCheckDynamicStepDialog extends BaseStepDialog implements StepDialogInterface {
 
-    private static String PKG = "com.coster.kettle.skyway.steps"; // for i18n purposes
+    private static Class<?> PKG = StringCheckDynamicStepDialog.class; // Needed for i18n purposes
     private CCombo wDBConnection;
     private ColumnInfo[] ciFields;
 
